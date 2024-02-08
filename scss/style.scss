@@ -63,7 +63,7 @@ button:hover{
 }
         }
         button:hover{
-            background-color: #fff;
+            background-color: #978484;
         }
         img{
            transform: translatey(30px);
@@ -210,6 +210,12 @@ padding: 80px 165px;
             transform: translatex(50px);
         }
     }
+    .head{
+        gap: 10px;
+    }
+    .main{
+        gap: 10px;
+    }
 }
 @media(max-width:690px){
     .header{
@@ -228,4 +234,5 @@ padding: 80px 165px;
           padding: 15px 15px;
         }
     }
+   
 }

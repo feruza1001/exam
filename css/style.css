@@ -63,7 +63,7 @@
   background-color: #fff;
 }
 .header .header3 button:hover {
-  background-color: #fff;
+  background-color: #978484;
 }
 .header .header3 img {
   transform: translatey(30px);
@@ -192,6 +192,12 @@
   }
   .header .header3 {
     transform: translatex(50px);
+  }
+  .head {
+    gap: 10px;
+  }
+  .main {
+    gap: 10px;
   }
 }
 @media (max-width: 690px) {
