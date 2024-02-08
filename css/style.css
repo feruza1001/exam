@@ -33,6 +33,9 @@
   text-transform: uppercase;
   color: #fff;
 }
+.header .header3 {
+  transform: translatey(90px);
+}
 .header .header3 p {
   font-weight: 300;
   font-size: 22px;
