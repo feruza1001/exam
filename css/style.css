@@ -37,6 +37,9 @@
   transform: translatey(90px);
 }
 .header .header3 p {
+  width: 350px;
+  height: 160px;
+  font-family: "Outfit", sans-serif;
   font-weight: 300;
   font-size: 22px;
   line-height: 145%;
