@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+// body{
+//     font-family
+// }
+.container {
+    width: 100%;
+    max-width: 1449px;
+    // box-sizing: content-box;
+    margin: 0 auto;
+   background: color rgb(173, 173, 173);;
+}
+.header{
+    margin: 0 auto;
+    display: flex;
+    .header1{
+        width: 450px;
+height: 799px;
+background-color: #151515;
+h1{
+    font-weight: 900;
+font-size: 96px;
+line-height: 92%;
+text-transform: uppercase;
+color: #fff;
+}
+    }
+    .header3{
+        p{
+            font-weight: 300;
+font-size: 22px;
+line-height: 145%;
+        }
+        button{
+            border: none;
+            transform: translatex(3px);
+            background-color: #151515;
+            color: #fff;
+            width: 204px;
+height: 72px;
+font-weight: 800;
+font-size: 20px;
+letter-spacing: 0.18em;
+font-family: "Big Shoulders Display", sans-serif;
+        }
+        img{
+           transform: translatey(30px);
+        }
+    }
+}
+.head{
+    margin: 0 auto;
+    margin-top: 180px;
+    width: 100%;
+    max-width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    .head1{
+        width: 100%;
+        max-width: 350px;
+height: 280px;
+       h2{
+        font-weight: 900;
+        font-size: 60px;
+        line-height: 100%;
+        text-transform: uppercase;
+        color: #151515;
+        font-family: "Big Shoulders Display", sans-serif;
+       }
+p{
+    font-weight: 300;
+font-size: 22px;
+line-height: 145%;
+color: #444;
+font-family: "Outfit", sans-serif;
+}
+    }
+    .head_img{
+      img{
+        width: 100%;
+        max-width: 635px;
+height: 400px;
+
+      }
+    }
+}
+.main{
+    margin: 0 auto;
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+    max-width: 1110px;
+    gap:30px ;
+    .main_img{
+        img{
+            width: 100%;
+            max-width: 635px;
+height: 720px;
+        }
+    }
+    .main1{
+        .min{
+           img{
+            width: 100%;
+            max-width: 445px;
+height: 313px;
+           }
+        }
+        .min1{
+            background-color: #151515;
+            width: 100%;
+            max-width: 445px;
+height: 377px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 65px 48px;
+gap: 30px;
+            h2{
+                font-family: "Big Shoulders Display", sans-serif;
+                color: #fff;
+                font-weight: 900;
+                font-size: 60px;
+                line-height: 100%;
+                text-transform: uppercase; 
+            }
+            p{
+                color: #fff;
+                font-weight: 400;
+font-size: 22px;
+line-height: 145%;
+font-family: "Outfit", sans-serif;
+            }
+        }
+    }
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #151515;
+    width: 100%;
+    max-width: 1440px;
+height: 244px;
+margin-top: 180px;
+    .footer1{
+
+        width: 100%;
+        // max-width: 1110px;
+      display: flex;
+      justify-content: space-between;
+padding: 80px 165px;
+.min1{
+    width: 100%;
+          max-width: 205px;
+          height: 58px;
+        h2{
+            font-family: "Big Shoulders Display", sans-serif;
+          
+          color: #fff;
+      
+    }
+}
+.min2{
+    width: 100%;
+    max-width: 420px;
+    height: 84px;
+    p{
+       
+        font-family: "Outfit", sans-serif;
+    color: #fff;
+    }
+}
+.min3{
+    img{
+        width: 100px;
+    height: 20px;
+    }
+}
+    }
+}
+@media(max-width:950px){
+    .header{
+        .header1{
+            display: none;
+        }
+    }
+}
+@media(max-width:690px){
+    .header{
+        flex-direction: column;
+    }
+    .head{
+        flex-direction: column-reverse;
+    }
+    .main{
+        flex-direction: column;
+    }
+    .footer{
+        flex-direction: column;
+        .footer1{
+            flex-direction: column;
+          padding: 15px 15px;
+        }
+    }
+}
