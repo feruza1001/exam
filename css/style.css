@@ -24,6 +24,7 @@
 }
 .header .header1 h1 {
   font-family: "Big Shoulders Display", sans-serif;
+  margin-top: 100px;
   transform: translatex(90px);
 }
 .header .header1 h1 {
