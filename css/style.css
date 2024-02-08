@@ -23,6 +23,10 @@
   background-color: #151515;
 }
 .header .header1 h1 {
+  font-family: "Big Shoulders Display", sans-serif;
+  transform: translatex(90px);
+}
+.header .header1 h1 {
   font-weight: 900;
   font-size: 96px;
   line-height: 92%;
