@@ -59,6 +59,12 @@
   letter-spacing: 0.18em;
   font-family: "Big Shoulders Display", sans-serif;
 }
+.header .header3 button button:hover {
+  background-color: #fff;
+}
+.header .header3 button:hover {
+  background-color: #fff;
+}
 .header .header3 img {
   transform: translatey(30px);
 }
